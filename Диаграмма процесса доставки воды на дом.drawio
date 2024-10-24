@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.2">
   <diagram name="Страница — 1" id="UOntejemrvACpvtsWQj9">
-    <mxGraphModel dx="814" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="671" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -107,8 +107,28 @@
             <mxPoint x="1010" y="400" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="fE0YWYt9ngZXiTgXL01a-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="fE0YWYt9ngZXiTgXL01a-83" source="fE0YWYt9ngZXiTgXL01a-173">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1170" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="fE0YWYt9ngZXiTgXL01a-173" value="Поиск курьера для доставки" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;" vertex="1" parent="fE0YWYt9ngZXiTgXL01a-83">
           <mxGeometry x="1109.9957142857145" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fE0YWYt9ngZXiTgXL01a-186" value="Получить уведомление" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="fE0YWYt9ngZXiTgXL01a-83">
+          <mxGeometry x="1590" y="-140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fE0YWYt9ngZXiTgXL01a-187" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fE0YWYt9ngZXiTgXL01a-83">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1649.55" y="-60" as="targetPoint" />
+            <mxPoint x="1650" y="30" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fE0YWYt9ngZXiTgXL01a-189" value="Уведомить клиента&amp;nbsp;&lt;div&gt;о начале доставки&lt;/div&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;" vertex="1" parent="fE0YWYt9ngZXiTgXL01a-83">
+          <mxGeometry x="1589.9957142857145" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fE0YWYt9ngZXiTgXL01a-190" value="" style="shape=message;html=1;fillColor=#FFFFFF;" vertex="1" parent="fE0YWYt9ngZXiTgXL01a-83">
+          <mxGeometry x="1635" y="-30" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fE0YWYt9ngZXiTgXL01a-68" value="Сотрудник склада" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="fE0YWYt9ngZXiTgXL01a-1">
           <mxGeometry x="20" y="720" width="2510" height="350" as="geometry" />
@@ -153,9 +173,53 @@
         <mxCell id="fE0YWYt9ngZXiTgXL01a-82" value="Курьер" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="fE0YWYt9ngZXiTgXL01a-1">
           <mxGeometry x="20" y="1070" width="2510" height="680" as="geometry" />
         </mxCell>
+        <mxCell id="fE0YWYt9ngZXiTgXL01a-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="fE0YWYt9ngZXiTgXL01a-82" source="fE0YWYt9ngZXiTgXL01a-176">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1270" y="70.14285714285734" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fE0YWYt9ngZXiTgXL01a-176" value="Уведомление о новом заказе" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;" vertex="1" parent="fE0YWYt9ngZXiTgXL01a-82">
+          <mxGeometry x="1109.9957142857145" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fE0YWYt9ngZXiTgXL01a-179" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="fE0YWYt9ngZXiTgXL01a-82" source="fE0YWYt9ngZXiTgXL01a-178">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1430" y="70.14285714285734" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fE0YWYt9ngZXiTgXL01a-178" value="Указывает в приложении согласие на доставку" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;" vertex="1" parent="fE0YWYt9ngZXiTgXL01a-82">
+          <mxGeometry x="1270" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fE0YWYt9ngZXiTgXL01a-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="fE0YWYt9ngZXiTgXL01a-82" source="fE0YWYt9ngZXiTgXL01a-182">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1590" y="70.14285714285734" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fE0YWYt9ngZXiTgXL01a-182" value="Принять заказ со склада" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;" vertex="1" parent="fE0YWYt9ngZXiTgXL01a-82">
+          <mxGeometry x="1430" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fE0YWYt9ngZXiTgXL01a-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="fE0YWYt9ngZXiTgXL01a-82" source="fE0YWYt9ngZXiTgXL01a-184">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1750" y="70.29411764705878" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fE0YWYt9ngZXiTgXL01a-184" value="Указывает в приложении начало транспортировки" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;" vertex="1" parent="fE0YWYt9ngZXiTgXL01a-82">
+          <mxGeometry x="1590" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fE0YWYt9ngZXiTgXL01a-193" value="Приезжает на указанный клиентом адрес" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;" vertex="1" parent="fE0YWYt9ngZXiTgXL01a-82">
+          <mxGeometry x="1750" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fE0YWYt9ngZXiTgXL01a-195" value="Указывает в приложении начало транспортировки" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;" vertex="1" parent="fE0YWYt9ngZXiTgXL01a-82">
+          <mxGeometry x="1900" y="29" width="120" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="fE0YWYt9ngZXiTgXL01a-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fE0YWYt9ngZXiTgXL01a-1" source="fE0YWYt9ngZXiTgXL01a-134" target="fE0YWYt9ngZXiTgXL01a-140">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="710" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fE0YWYt9ngZXiTgXL01a-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fE0YWYt9ngZXiTgXL01a-1" target="fE0YWYt9ngZXiTgXL01a-189" source="fE0YWYt9ngZXiTgXL01a-184">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1670" y="680" as="targetPoint" />
+            <mxPoint x="1670" y="770" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fE0YWYt9ngZXiTgXL01a-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fE0YWYt9ngZXiTgXL01a-91">
@@ -187,9 +251,6 @@
         </mxCell>
         <mxCell id="fE0YWYt9ngZXiTgXL01a-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fE0YWYt9ngZXiTgXL01a-122" target="fE0YWYt9ngZXiTgXL01a-104">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fE0YWYt9ngZXiTgXL01a-164" value="" style="shape=message;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="445" y="370" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
